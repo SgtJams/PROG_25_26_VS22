@@ -1,0 +1,23 @@
+﻿  ConversionPerso.c
+C:\SPY\PROG_SLO1_25_26\CodeDemo\codeDemo25_26\Demo25_26\Demo25_26\ConversionPerso.c(38,1): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+  demo.c
+C:\SPY\PROG_SLO1_25_26\CodeDemo\codeDemo25_26\Demo25_26\Demo25_26\demo.c(69,10): warning C4101: 'varB' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\codeDemo25_26\Demo25_26\Demo25_26\demo.c(60,16): warning C4101: 'varM' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\codeDemo25_26\Demo25_26\Demo25_26\demo.c(63,21): warning C4101: 'varP' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\codeDemo25_26\Demo25_26\Demo25_26\demo.c(55,8): warning C4101: 'varJ' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\codeDemo25_26\Demo25_26\Demo25_26\demo.c(71,10): warning C4101: 'varD' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\codeDemo25_26\Demo25_26\Demo25_26\demo.c(62,15): warning C4101: 'varO' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\codeDemo25_26\Demo25_26\Demo25_26\demo.c(56,6): warning C4101: 'varK' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\codeDemo25_26\Demo25_26\Demo25_26\demo.c(77,11): warning C4101: 'varH' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\codeDemo25_26\Demo25_26\Demo25_26\demo.c(57,12): warning C4101: 'varL' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\codeDemo25_26\Demo25_26\Demo25_26\demo.c(54,7): warning C4101: 'varI' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\codeDemo25_26\Demo25_26\Demo25_26\demo.c(81,9): warning C4101: 'varR' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\codeDemo25_26\Demo25_26\Demo25_26\demo.c(80,8): warning C4101: 'varQ' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\codeDemo25_26\Demo25_26\Demo25_26\demo.c(76,11): warning C4101: 'varG' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\codeDemo25_26\Demo25_26\Demo25_26\demo.c(61,17): warning C4101: 'varN' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\codeDemo25_26\Demo25_26\Demo25_26\demo.c(74,10): warning C4101: 'varE' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\codeDemo25_26\Demo25_26\Demo25_26\demo.c(75,11): warning C4101: 'varF' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\codeDemo25_26\Demo25_26\Demo25_26\demo.c(70,10): warning C4101: 'varC' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\codeDemo25_26\Demo25_26\Demo25_26\demo.c(68,9): warning C4101: 'varA' : variable locale non référencée
+  Génération de code en cours...
+  Demo25_26.vcxproj -> C:\SPY\PROG_SLO1_25_26\CodeDemo\codeDemo25_26\Demo25_26\x64\Debug\Demo25_26.exe

@@ -1,0 +1,20 @@
+﻿  Demo.c
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Demo.c(72,13): warning C4101: 'varB' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Demo.c(64,19): warning C4101: 'varM' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Demo.c(67,24): warning C4101: 'varP' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Demo.c(59,11): warning C4101: 'varJ' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Demo.c(74,13): warning C4101: 'varD' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Demo.c(80,14): warning C4101: 'varH' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Demo.c(61,15): warning C4101: 'varL' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Demo.c(58,10): warning C4101: 'varI' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Demo.c(60,9): warning C4101: 'VarK' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Demo.c(84,12): warning C4101: 'varR' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Demo.c(83,11): warning C4101: 'varQ' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Demo.c(79,14): warning C4101: 'varG' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Demo.c(65,20): warning C4101: 'varN' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Demo.c(77,13): warning C4101: 'varE' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Demo.c(78,14): warning C4101: 'varF' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Demo.c(73,13): warning C4101: 'varC' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Demo.c(71,12): warning C4101: 'varA' : variable locale non référencée
+C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\Dema25_26\Demo.c(66,18): warning C4101: 'VarO' : variable locale non référencée
+  Dema25_26.vcxproj -> C:\SPY\PROG_SLO1_25_26\CodeDemo\Demo_visualstudio\Dema25_26\x64\Debug\Dema25_26.exe
