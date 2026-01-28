@@ -1,42 +1,48 @@
-//-----------------------------------------------------------------------------------//
-// Nom du projet 		: Exercice 12 - Tableau
-// Nom du fichier 		: ShowItems.c
-// Date de création 	: 12.01.2026
-// Date de modification : xx.xx.20xx
+// ---------------------------------------------------------------------------------- -//
+// Nom du projet 		: Ex12
+// Nom du fichier 		: Showltems.c
+// Date de création 	: 25.01.2026
+// Date de modification : 
 //
-// Auteur 				: Steeve.Pouly
-//						  
+// Auteur 				: Pouly (St. Pouly)
+//                       
 //
-// Version				: 0.1
-//
-// Description          : Fournir un canevas vide, supportant la structure de deux test ainsi que les demandes à l'utilisateur.
+// Description          : Fonctions qui retourne l'adress,la valeur, l'indice d'un tableau
 //
 //
 // Remarques :            lien pour la table ASCII :
 // 						  -> http://www.asciitable.com/
-// 						  lien pour la saisie de clavier avec getc & getchar pour ne pas
-//                        avoir des erreurs d'interprétation
-// 						  -> http://fr.openclassrooms.com/informatique/cours/utiliser-les-bonnes-fonctions-d-entree
-// 						  lien vers différents
-// 						  -> http://fr.wikipedia.org/wiki/String.h
+// 						  
 //----------------------------------------------------------------------------------//
-#include <stdio.h>
+#define _USE_MATH_DEFINES		// pour utiliser des constantes liés à la librairie 
+								// math 
 
+//-- librairie standard --// 
+#include <math.h>
+//#include <corecrt_math_defines.h>		// autre possibilité pour utiliser les cst de
+										// de la librairie math
+
+//-- librairie perso --//  
 #include "ShowItems.h"
 
-// --fonction--//
-//---------------------------------------------------------------------------------//
+
+//----------------------------------------------------------------------------------//
 //-- nom fct : ShowItems
-//--paramètre entrée: nbE (double,double)
-//--paramètre sortie: nbETot -> (int)
-//--paramètre IN-OUT(pointeur): -
-//--description : afficher le résultat de plussieurs valeurs
-//---------------------------------------------------------------------------------//
-
-int ShowItems(double nbE , double adT)
+//-- paramètre entrée : short,int
+//-- paramètre sortie : float
+//-- paramètre IN-OUT : - 
+//-- description	  : Fonctions qui retourne l'adress,la valeur, l'indice d'un tableau
+//----------------------------------------------------------------------------------//
+float ShowItems(short TabElem, int TabInd)
 {
-	//-- declaration des variables --//
+	//-- déclaration variable --// 
+	int NbrElem;
+	int DebAdress;
+	float Item;
 
+	//-- calcul de Resultat --//
+	
 
-
+	//-- retour Resultat --// 
+	return (Item);
 }
