@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\source\Ex12.c" />
+    <ClCompile Include="Ex12.c" />
     <ClCompile Include="ShowItems.c" />
   </ItemGroup>
   <ItemGroup>

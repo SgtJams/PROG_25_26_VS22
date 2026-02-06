@@ -17,9 +17,11 @@
 #ifndef SHOWITEMS_H //-> par convention nomme le nom du fichier 
 #define SHOWITEMS_H
 
+//-- define --// 
+#define NB_CASES_TB 10  // constante pour donner le nbr de case du tableau //
 
 //-- prototype --// 
-float ShowItems(short TabElem, int TabInd);
+void ShowItems(char ptNbrElem, float* ptAdressTab);
 
 #endif // !SHOWITEMS_H   //-> par convention nomme le nom du fichier 
 

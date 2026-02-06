@@ -28,21 +28,28 @@
 
 //----------------------------------------------------------------------------------//
 //-- nom fct : ShowItems
-//-- paramètre entrée : short,int
-//-- paramètre sortie : float
-//-- paramètre IN-OUT : - 
+//-- paramètre entrée : short NbreElem (TablA) 
+//-- paramètre sortie : float Indice (valeur indice tableau)
+//-- paramètre IN-OUT : int *ptAdressTab (pointeur sur adresse)
 //-- description	  : Fonctions qui retourne l'adress,la valeur, l'indice d'un tableau
 //----------------------------------------------------------------------------------//
-float ShowItems(short TabElem, int TabInd)
+void ShowItems(char ptNbrElem, float *ptAdressTab )
 {
 	//-- déclaration variable --// 
-	int NbrElem;
-	int DebAdress;
-	float Item;
+	int i;
+	//char* ptEx;
+	//ptEx = ptAdressTab;
 
-	//-- calcul de Resultat --//
-	
+	//-- boucle d'affichage --// 
+	for (i = 0; i < ptNbrElem; i++)		//////!!!!!!!Atention le I prend le type de la variable utilisé dans la boucle///////////
+	{
+		//-- déplacement pointeur --// 
+		//printf("Adressse pointee (float) : %p \n",  ptAdressTab);  // %p == uniquement pour les adresses de pointeur //
 
+		printf("TestA : indice = %d, adresse item = %p, valeur item = %.2lf \n", i, (ptAdressTab + i), *(ptAdressTab + i)); 
+		//printf---(ptAdressTab + i) = on donne l'adresse incrémentée avec i ////*(ptAdressTab + i) = on donne la valeur incrémentée avec i//
+
+		//printf(" Adressse du pointeur incremente par i : %p \n\n ", (ptEx + i)); //Exemple pour montrer l'importance de la règle du I avec des pointeur//
+	}
 	//-- retour Resultat --// 
-	return (Item);
 }
