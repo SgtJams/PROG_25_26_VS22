@@ -18,27 +18,9 @@
 #include <stdio.h>	// pour usage printf
 #include <stdint.h> // uniformation du type entier 
 
-// Structure S_hms
-struct S_hms
-{
-	short int NmbrH;
-	short int NmbrM;
-	short int NmbrS;
-};
+// lib perso //
+#include "LibGestTime.h"
 
-// Structure S_hms_D
-
-
-// Fonction CalSec
-#include "CalcSec.h"
-
-// Fonction GetHMS_B
-#include "GetHMS_B.h"
-
-// Fonction GetHMS_C
-#include "GetHMS_C.h"
-
-// Fonction GetHMS_D
 
 
 int main (void)
@@ -52,17 +34,39 @@ int main (void)
 	short int SoldeSec;
 	short int NmbrH;
 	short int NmbrM;
-	short int* ptNmbrH;
-	short int* ptNmbrM;
-	ptNmbrH = &NmbrH;
-	ptNmbrM = &NmbrM;
+	//short int *ptNmbrH;
+	//short int *ptNmbrM;
+	//ptNmbrH = &NmbrH;
+	//ptNmbrM = &NmbrM;
 
 	// Variables pour test C
 	int ValC;
+	S_hms Valheur;
+	short int *ptNmbrHC;
+	short int *ptNmbrMC;
+	short int *ptNmbrSC;
+	ptNmbrHC = &Valheur.NmbrH;
+	ptNmbrMC = &Valheur.NmbrM;
+	ptNmbrSC = &Valheur.NmbrS;
 	
 
 	// Variables pour test D
 	int ValD;
+	S_Hms_D ResD;
+	short *ptResD;
+	short *ptResDH;
+	short *ptResDM;
+	short *ptResDS;
+	
+	ptResD = &ResD; 
+	ptResD = &ResD.NbSec;
+	ptResDH = &ResD.TabHMS[2];
+	ptResDM = &ResD.TabHMS[1];
+	ptResDS = &ResD.TabHMS[0];
+
+	S_Hms_D* pt_str; //-- version pro --//
+	pt_str = &ResD; //-- version pro --//
+	
 
 
 	printf("Ex14  Steeve Pouly \n");	// à MAJ
@@ -78,7 +82,11 @@ int main (void)
 				scanf_s("%d%*c", &HeuresA);
 				printf("TestA: entrez le nb de minutes  \n");
 				scanf_s("%d%*c", &MinutesA);
+
+				//-- appel de la fonction --//
 				SecondesA = CalcSec(HeuresA, MinutesA);
+
+				//-- Afichage Valeurs --//
 				printf("TestA : Heures = %d Minutes = %d Nb secondes = %d\n", HeuresA, MinutesA, SecondesA);
 
 
@@ -88,8 +96,12 @@ int main (void)
 			case 'b':
 				printf("TestB: entrez un nombre de secondes \n");
 				scanf_s("%d%*c", &ValB);
+
+				//-- appel de la fonction --//
 				SoldeSec = GetHMS_B(ValB,&NmbrH,&NmbrM);
-				printf("TestB : %d sec represente %d[h] %d[m] %d[s]\n", ValB, *ptNmbrH, *ptNmbrM, SoldeSec);
+
+				//-- Afichage Valeurs --//
+				printf("TestB : %d sec represente %d[h] %d[m] %d[s]\n", ValB, NmbrH, NmbrM, SoldeSec);
 
 			break;
 
@@ -97,8 +109,13 @@ int main (void)
 			case 'c':
 				printf("TestC: entrez un nombre de secondes \n");
 				scanf_s("%d%*c", &ValC);
-				GetHMS_C();
-				printf("TestB : %d sec represente %d[h] %d[m] %d[s]\n", ValC, *ptNmbrH, *ptNmbrM, SoldeSec);
+
+				//-- appel de la fonction --//
+				GetHMS_C(ValC, &Valheur);
+
+				//-- Afichage Valeurs --//
+				printf("TestB : %d sec represente %d[h] %d[m] %d[s]\n", ValC, *ptNmbrHC, *ptNmbrMC, *ptNmbrSC);
+
 
 			break;
 
@@ -106,7 +123,15 @@ int main (void)
 			case 'd':
 				printf("TestD: entrez un nombre de secondes \n");
 				scanf_s("%d%*c", &ValD);
-				// Suite TestD
+
+				//--pointeur sur pour récup de la valeur ValD --//
+				*ptResD = ValD;
+
+				//-- appel de la fonction --//
+				GetHMS_D(&ResD);
+
+				//-- Afichage Valeurs selon plusieur façon (débutant, intérmédiaire,pro) --//
+				printf("TestB : %d sec represente %d[h] %d[m] %d[s]\n", ValD, ResD.TabHMS[2], pt_str->TabHMS[1], *(ptResD+1));
 
 			break;
 		} // end switch

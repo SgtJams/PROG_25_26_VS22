@@ -131,11 +131,10 @@
     <ClCompile Include="Ex14.c" />
     <ClCompile Include="GetHMS_B.c" />
     <ClCompile Include="GetHMS_C.c" />
+    <ClCompile Include="GetHMS_D.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CalcSec.h" />
-    <ClInclude Include="GetHMS_B.h" />
-    <ClInclude Include="GetHMS_C.h" />
+    <ClInclude Include="LibGestTime.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

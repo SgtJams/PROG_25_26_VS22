@@ -19,24 +19,22 @@
 										// de la librairie math
 
 //-- librairie perso --//  
-#include "GetHMS_C.h"
+#include "LibGestTime.h"
 
 
 //----------------------------------------------------------------------------------//
 //-- nom fct : GetHMS_B
 //-- paramètre entrée : int nbrSec = nbr de secondes données.
-//-- paramètre sortie : short int ReturnSec = retour des secondes du calcul.
-//-- paramètre IN-OUT : short int *ptnbrH / short int *ptnbrM = pointage sur valeur des heure et des minutes calculées.
+//-- paramètre sortie : 
+//-- paramètre IN-OUT : short S_hms *ptS_hms = pointage sur valeur des heures et des minutes et des secondes calculées.
 //-- description	  : Transformation d'un valeur donné en seconde en un block donnant heures minutes et secondes.
 //----------------------------------------------------------------------------------//
-void GetHMS_C(int nbrSec, struct S_hms)
+void GetHMS_C(int nbrSec,  S_hms * ptS_hms)
 {
-	//-- Declaration Variable fonction --//
-	short int ReturnSec;
-
+	
 	//-- Calcul et transformation --//
 
-	//*ptnbrH = nbrSec / 3600;			//-- val Heures --//
-	//*ptnbrM = (nbrSec % 3600) / 60;		//-- val Minutes --//
-	//ReturnSec = (nbrSec % 3600) % 60;		//-- val Secondes --//
+	ptS_hms->NmbrH = nbrSec / 3600;				//-- val Heures --//
+	ptS_hms->NmbrM = (nbrSec % 3600) / 60;		//-- val Minutes --//
+	ptS_hms->NmbrS = (nbrSec % 3600) % 60;		//-- val Secondes --//
 }

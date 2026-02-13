@@ -23,7 +23,7 @@
 										// de la librairie math
 
 //-- librairie perso --//  
-#include "GetHMS_B.h"
+#include "LibGestTime.h"
 
 //----------------------------------------------------------------------------------//
 //-- nom fct : GetHMS_B
