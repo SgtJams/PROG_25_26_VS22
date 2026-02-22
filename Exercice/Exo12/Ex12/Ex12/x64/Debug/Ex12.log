@@ -1,2 +1,7 @@
 ﻿  Ex12.c
-  Ex12.vcxproj -> C:\SPY\PROG_SLO1_25_26\Exercice\Exo12\Ex12\x64\Debug\Ex12.exe
+C:\SPY\PROG_SLO1_25_26_VS22\Exercice\Exo12\Ex12\Ex12\Ex12.c(85,26): warning C4474: 'scanf_s' : trop d'arguments passés pour la chaîne de format
+C:\SPY\PROG_SLO1_25_26_VS22\Exercice\Exo12\Ex12\Ex12\Ex12.c(85,26): message : les espaces réservés et leurs paramètres attendent des arguments 1 variadiques, mais des arguments 2 ont été fournis
+  ShowItems.c
+C:\SPY\PROG_SLO1_25_26_VS22\Exercice\Exo12\Ex12\Ex12\ShowItems.c(49,3): warning C4013: 'printf' non défini(e) ; extern retournant int pris par défaut
+  Génération de code en cours...
+  Ex12.vcxproj -> C:\SPY\PROG_SLO1_25_26_VS22\Exercice\Exo12\Ex12\x64\Debug\Ex12.exe

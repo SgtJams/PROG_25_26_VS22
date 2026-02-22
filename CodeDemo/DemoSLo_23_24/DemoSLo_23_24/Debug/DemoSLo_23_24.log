@@ -1,0 +1,9 @@
+﻿  MesFonctions.c
+C:\PBY\PROJET\PROGRAMMATION\GITHUB\PROG_DEMO_SLO23_24\CodeDemo\DemoSLo_23_24\DemoSLo_23_24\MesFonctions.c(31,37): warning C4047: '=' : les niveaux d'indirection de 'char *' et de 'char' sont différents
+C:\PBY\PROJET\PROGRAMMATION\GITHUB\PROG_DEMO_SLO23_24\CodeDemo\DemoSLo_23_24\DemoSLo_23_24\MesFonctions.c(33,37): warning C4047: '=' : les niveaux d'indirection de 'char' et de 'char *' sont différents
+  mainSLO.c
+C:\PBY\PROJET\PROGRAMMATION\GITHUB\PROG_DEMO_SLO23_24\CodeDemo\DemoSLo_23_24\DemoSLo_23_24\mainSLO.c(229,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\PBY\PROJET\PROGRAMMATION\GITHUB\PROG_DEMO_SLO23_24\CodeDemo\DemoSLo_23_24\DemoSLo_23_24\mainSLO.c(232,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\PBY\PROJET\PROGRAMMATION\GITHUB\PROG_DEMO_SLO23_24\CodeDemo\DemoSLo_23_24\DemoSLo_23_24\mainSLO.c(80,15): warning C4101: 'nbCaractere' : variable locale non référencée
+  Génération de code en cours...
+  DemoSLo_23_24.vcxproj -> C:\PBY\PROJET\PROGRAMMATION\GITHUB\PROG_DEMO_SLO23_24\CodeDemo\DemoSLo_23_24\DemoSLo_23_24\Debug\DemoSLo_23_24.exe

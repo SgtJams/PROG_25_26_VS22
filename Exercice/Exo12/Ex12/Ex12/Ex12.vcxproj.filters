@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\source\Ex12.c">
+    <ClCompile Include="ShowItems.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="ShowItems.c">
+    <ClCompile Include="Ex12.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>

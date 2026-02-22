@@ -20,31 +20,49 @@
 
 // Fonction ShowItems
 
-
+#include "ShowItems.h"
 
 int main (void)
 {
 	char UserAnswer;
-	// Variables pour test A
-	int i;
-	int TableA[10];
-	float ValItem;
-	short ValInd;
-	int ValAdd;
 
-	// Variables pour test B
-	
+	// Variables pour test A //
+	int i;
+	float TableA[NB_CASES_TB]; //constante déclarée dans le.h// 
+
+
+	// Variables pour test B //
+	int ValB;
+	char MatriceB[16][4] =
+	{
+	  {0, 0, 0, 0},
+	  {0, 0, 0, 1},
+	  {0, 0, 1, 0},
+	  {0, 0, 1, 1},
+	  {0, 1, 0, 0},
+	  {0, 1, 0, 1},
+	  {0, 1, 1, 0},
+	  {0, 1, 1, 1},
+	  {1, 0, 0, 0},
+	  {1, 0, 0, 1},
+	  {1, 0, 1, 0},
+	  {1, 0, 1, 1},
+	  {1, 1, 0, 0},
+	  {1, 1, 0, 1},
+	  {1, 1, 1, 0},
+	  {1, 1, 1, 1},
+	};
+
 
 	printf("Ex12  Steeve Pouly \n");  // A adapter
 
-	// Boucle initialisation du tableau du testA
+	// Boucle initialisation du tableau du testA //
 
-	for (i = 0, i < 0, i++)
+	for (i = 0; i < NB_CASES_TB; i++)
 	{
-		TableA[i] = 0;
+		TableA[i] = (float)10.00 + ((float)i/(float)100.0) ;
 	}
-
-
+	 
 	do {
 		printf("Test A ou B, Q pour Quitter \n");
 		scanf_s("%c%*c", &UserAnswer, 2);
@@ -53,8 +71,8 @@ int main (void)
 			case 'A':
 			case 'a':
 				printf("TestA: affichage des informations de TableA \n");
-				ValItem = ShowItems(TableA);
-				printf("TestA : indice = %d, adresse item = %d valeur item = %d", ValInd, ValAdd, ValItem);
+				ShowItems(NB_CASES_TB, &TableA[0]);   // TableA 
+				
 
 				
 			break;
@@ -62,8 +80,23 @@ int main (void)
 			case 'B':
 			case 'b':
 				printf("TestB: entrez le numero de ligne (max 15) \n");
-				// suite test B 
 
+				// insersion valeur utilisateur max 15 //
+				scanf_s("%d", &ValB, 2);
+
+				// Condition si max 15 faire //
+				if (ValB <= 15)
+				{
+					// afficher valeur de la ligne(tableau) //
+					printf("TestB: No Ligne = %d [3]=%d [2]=%d [1]=%d [0]=%d\n", ValB, MatriceB[ValB][0], MatriceB[ValB][1], MatriceB[ValB][2], MatriceB[ValB][3]);
+				}
+				else  //sinon mettre a 15 valeur utilisateur et afficher tableau //
+				{
+					ValB = 15;
+					printf("TestB: No Ligne = %d [3]=%d [2]=%d [1]=%d [0]=%d\n", ValB, MatriceB[ValB][0], MatriceB[ValB][1], MatriceB[ValB][2], MatriceB[ValB][3]);
+
+				};
+				
 			break;
 
 		} // end switch
