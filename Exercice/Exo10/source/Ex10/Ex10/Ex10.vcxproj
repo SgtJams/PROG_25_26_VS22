@@ -128,7 +128,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Ex10.c" />
-    <ClCompile Include="Ex10.cpp" />
     <ClCompile Include="Extract.c" />
     <ClCompile Include="FtestA.c" />
   </ItemGroup>

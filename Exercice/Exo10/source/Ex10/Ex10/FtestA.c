@@ -37,7 +37,6 @@ int FtestA(double valIn, double *pf)
 {
 	//-- déclaration variable --// 
 	double PartInt;
-	double PartFract;
 
 	//-- calcul de valIn --//
 	PartInt = floor(valIn);

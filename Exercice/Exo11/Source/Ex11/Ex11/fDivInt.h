@@ -19,7 +19,7 @@
 
 
 //-- prototype --// 
-int fDivInt(int valnum, int valdiv);
+int fDivInt(int valnum, int valdiv, int* ptR);
 
 #endif // !FDIVINT_H   //-> par convention nomme le nom du fichier 
 

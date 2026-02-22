@@ -32,6 +32,7 @@ int main (void)
 	// Variables pour test A
 	int ValA_dividende, ValA_diviseur;
 	int Resultat;
+	int Reste;
 	// Variables pour test B
 	int ValB;
 	short int Valcent;
@@ -57,7 +58,7 @@ int main (void)
 				}
 				else
 				{
-					Resultat = fDivInt(ValA_dividende, ValA_diviseur);
+					Resultat = fDivInt(ValA_dividende, ValA_diviseur, &Reste);
 					printf("Resultat de %d / %d = %d, reste = %d", ValA_dividende, ValA_diviseur, Resultat, Reste);
 				}
 				

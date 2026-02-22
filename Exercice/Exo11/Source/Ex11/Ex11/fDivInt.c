@@ -33,15 +33,14 @@
 //-- paramètre IN-OUT : - 
 //-- description	  : donner l'heure,minute,seconde
 //----------------------------------------------------------------------------------//
-int fDivInt(int valnum,int valdiv)
+int fDivInt(int valnum,int valdiv, int *ptR)
 {
 	//-- déclaration variable --// 
 	 int Resultat;
-	 int Reste;
 
 	//-- calcul de Resultat --//
 	 Resultat = valnum / valdiv;
-	 Reste = valnum % valdiv;
+	 *ptR = valnum % valdiv;
 
 	//-- retour Resultat --// 
 	return (Resultat);

@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo10\\source\\EX10.1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A199DDEE-56AF-433A-8624-C380B3BFB960}|EX10.1\\EX10.1.vcxproj|D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo10\\source\\EX10.1\\EX10.1\\Ex10.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A199DDEE-56AF-433A-8624-C380B3BFB960}|EX10.1\\EX10.1.vcxproj|solutionrelative:EX10.1\\Ex10.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A199DDEE-56AF-433A-8624-C380B3BFB960}|EX10.1\\EX10.1.vcxproj|D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo10\\source\\EX10.1\\EX10.1\\Extract.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A199DDEE-56AF-433A-8624-C380B3BFB960}|EX10.1\\EX10.1.vcxproj|solutionrelative:EX10.1\\Extract.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A199DDEE-56AF-433A-8624-C380B3BFB960}|EX10.1\\EX10.1.vcxproj|D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo10\\source\\EX10.1\\EX10.1\\FtestA.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A199DDEE-56AF-433A-8624-C380B3BFB960}|EX10.1\\EX10.1.vcxproj|solutionrelative:EX10.1\\FtestA.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A199DDEE-56AF-433A-8624-C380B3BFB960}|EX10.1\\EX10.1.vcxproj|D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo10\\source\\EX10.1\\EX10.1\\Extract.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A199DDEE-56AF-433A-8624-C380B3BFB960}|EX10.1\\EX10.1.vcxproj|solutionrelative:EX10.1\\Extract.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A199DDEE-56AF-433A-8624-C380B3BFB960}|EX10.1\\EX10.1.vcxproj|D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo10\\source\\EX10.1\\EX10.1\\FtestA.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A199DDEE-56AF-433A-8624-C380B3BFB960}|EX10.1\\EX10.1.vcxproj|solutionrelative:EX10.1\\FtestA.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FtestA.h",
+              "DocumentMoniker": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo10\\source\\EX10.1\\EX10.1\\FtestA.h",
+              "RelativeDocumentMoniker": "EX10.1\\FtestA.h",
+              "ToolTip": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo10\\source\\EX10.1\\EX10.1\\FtestA.h",
+              "RelativeToolTip": "EX10.1\\FtestA.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-01T12:58:58.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Extract.h",
+              "DocumentMoniker": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo10\\source\\EX10.1\\EX10.1\\Extract.h",
+              "RelativeDocumentMoniker": "EX10.1\\Extract.h",
+              "ToolTip": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo10\\source\\EX10.1\\EX10.1\\Extract.h",
+              "RelativeToolTip": "EX10.1\\Extract.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-01T12:58:58.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FtestA.c",
+              "DocumentMoniker": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo10\\source\\EX10.1\\EX10.1\\FtestA.c",
+              "RelativeDocumentMoniker": "EX10.1\\FtestA.c",
+              "ToolTip": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo10\\source\\EX10.1\\EX10.1\\FtestA.c",
+              "RelativeToolTip": "EX10.1\\FtestA.c",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-02-01T12:58:57.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Extract.c",
+              "DocumentMoniker": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo10\\source\\EX10.1\\EX10.1\\Extract.c",
+              "RelativeDocumentMoniker": "EX10.1\\Extract.c",
+              "ToolTip": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo10\\source\\EX10.1\\EX10.1\\Extract.c",
+              "RelativeToolTip": "EX10.1\\Extract.c",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-02-01T12:58:56.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ex10.c",
+              "DocumentMoniker": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo10\\source\\EX10.1\\EX10.1\\Ex10.c",
+              "RelativeDocumentMoniker": "EX10.1\\Ex10.c",
+              "ToolTip": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo10\\source\\EX10.1\\EX10.1\\Ex10.c",
+              "RelativeToolTip": "EX10.1\\Ex10.c",
+              "ViewState": "AgIAADEAAAAAAAAAAAAUwDoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-02-01T12:58:56.083Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
