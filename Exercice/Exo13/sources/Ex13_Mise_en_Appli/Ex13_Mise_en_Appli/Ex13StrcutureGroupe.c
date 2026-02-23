@@ -1,12 +1,12 @@
 //-----------------------------------------------------------------------------------//
-// Nom du projet 		: ExerciceStructure
+// Nom du projet 		: EX13_Mise_en_appli
 // Nom du fichier 		: Ex13StrcutureGroupe.c
-// Date de création 	: 10.03.2019
+// Date de création 	: 23.02.2026
 // Date de modification : xx.xx.20xx
 //
-// Auteur 				: Philou (Ph. Bovey)
+// Auteur 				: Pouly Steeve
 //
-// Description          : programme principale 
+// Description          : Création de fonctions selon plusieur élements donnés.
 //
 //
 // Remarques			: lien pour les lib standard:
