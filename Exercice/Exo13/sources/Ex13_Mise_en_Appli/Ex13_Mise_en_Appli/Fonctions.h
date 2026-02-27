@@ -20,17 +20,39 @@
 
 //-----------------Déclaration Structure global-----------------//
 
+//-- Structure Codage --//
+typedef struct
+{
+	char tbNRZ[8];
+	char tnNRZi[9]; {X};//////////////////////////////////////////////////////////////////////
+
+} S_tbnzr;
+
+//-- Structure ConvSJHMs --//
+typedef struct
+{
+	short  NmbrSem;
+	short  NmbrJ;
+	short  NmbrH;
+	short  NmbrM;
+	short  NmbrS;
+
+} S_convT;
 
 
 //-----------------Prototypes-----------------//
 
 //-- Prototype Codage --//
 
+void Codage(int8_t tbbin[], S_tbnzr* ptS_tbnzr);
+
 //-- Prototype ConvSJHMs --//
+void ConvSJHMs(int time, S_convT *ptS_convT);
 
 //-- Prototype LoiOhm --//
+void LoiOhm();
 
 //-- Prototype TrigoTR --//
-
+void TrigoTR();
 
 #endif // !FONCTIONS_H //
