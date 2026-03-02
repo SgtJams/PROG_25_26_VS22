@@ -1,8 +1,5 @@
-﻿  Extract.c
-D:\ES\EMSY\Github\PROG_25_26_VS22\Exercice\Exo10\source\EX10.1\EX10.1\Extract.c(46,15): warning C4244: '=' : conversion de 'unsigned long' en 'unsigned short', perte possible de données
-D:\ES\EMSY\Github\PROG_25_26_VS22\Exercice\Exo10\source\EX10.1\EX10.1\Extract.c(40,9): warning C4101: 'NbHeures' : variable locale non référencée
-D:\ES\EMSY\Github\PROG_25_26_VS22\Exercice\Exo10\source\EX10.1\EX10.1\Extract.c(41,9): warning C4101: 'NbMinutes' : variable locale non référencée
-  FtestA.c
-D:\ES\EMSY\Github\PROG_25_26_VS22\Exercice\Exo10\source\EX10.1\EX10.1\FtestA.c(44,12): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+﻿  Ex10.c
+  Extract.c
   Génération de code en cours...
+D:\ES\EMSY\Github\PROG_25_26_VS22\Exercice\Exo10\source\EX10.1\EX10.1\Extract.c(46,15): warning C4244: '=' : conversion de 'unsigned long' en 'unsigned short', perte possible de données
   EX10.1.vcxproj -> D:\ES\EMSY\Github\PROG_25_26_VS22\Exercice\Exo10\source\EX10.1\x64\Debug\EX10.1.exe

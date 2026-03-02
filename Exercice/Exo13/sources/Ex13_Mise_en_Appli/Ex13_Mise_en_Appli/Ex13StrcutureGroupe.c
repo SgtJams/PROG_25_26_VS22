@@ -27,7 +27,6 @@
 #define MSG_BIENVENU		"Ex Structure - Version "
 #define VERSION_CODE		0.1
 #define TAILLE_TB_BINAIRE	8
-#define TAILLE_TB_RIUP		5
 #define	NB_TB_AFFICHER		3
 #define	VAL_MAX_SECONDE		31449600
 
@@ -36,28 +35,28 @@
 
 //-- déclaration de structure --// 
 //-- Structure Partie A --//
-/**truct st_tbCode
+/**struct st_tbCode
 {
 	int8_t tbNRZ[8];
 	int8_t tnNRZi[9];
 };*/
 
 //-- Structure Partie C --//
-struct str_tbInfoRIUP
-{
-	uint16_t tbR[TAILLE_TB_RIUP];		//	tableau de 5 résitances 
-	float	 tbI[TAILLE_TB_RIUP];		//	tableau 5 courant 
-	int8_t	 tbU[TAILLE_TB_RIUP];		//	tableau 5 tension 
-	float	 tbP[TAILLE_TB_RIUP];		//  tableau 5 Puissance 
-};
+//struct str_tbInfoRIUP
+//{
+//	uint16_t tbR[TAILLE_TB_RIUP];		//	tableau de 5 résitances 
+//	float	 tbI[TAILLE_TB_RIUP];		//	tableau 5 courant 
+//	int8_t	 tbU[TAILLE_TB_RIUP];		//	tableau 5 tension 
+//	float	 tbP[TAILLE_TB_RIUP];		//  tableau 5 Puissance 
+//};
 
 //-- Structure Partie D --//
-struct str_trioTR
-{
-	int8_t	adj, opp, hyp; 
-	float	alpha_radian; 
-	int16_t aplha_degre; 
-};
+//struct str_trioTR
+//{
+//	int8_t	adj, opp, hyp; 
+//	float	alpha_radian; 
+//	int16_t aplha_degre; 
+//};
 
 
 //-- programme principale --//
@@ -67,13 +66,14 @@ void main()
 	//-- Variables pour partie A --//
 	int8_t tbBinaire[TAILLE_TB_BINAIRE] = { 0,1,1,0,0,1,1,0 };
 	S_tbnzr TbNzr;
+	int caract = 120;
 
 	//-- déclaration pointeurs --//
-	char* ptTbNzr;		
-	char* ptTbNzri;
-	ptTbNzr = &TbNzr.tbNRZ;
-	ptTbNzri = &TbNzr.tnNRZi;
-
+	//char* ptTbNzr;		
+	//char* ptTbNzri;
+	//ptTbNzr = &TbNzr.tbNRZ;
+	//ptTbNzri = &TbNzr.tnNRZi;
+	
 
 	//-- Variables pour partie B --//
 	S_convT SJHMs;
@@ -84,16 +84,17 @@ void main()
 
 
 	//-- Variables pour partie C --//
-	struct str_tbInfoRIUP infosRIUP;
-
-	int* ptinfosRIUP;
-	ptinfosRIUP = &infosRIUP;
+	//struct str_tbInfoRIUP infosRIUP;
+	str_tbInfoRIUP infosRIUP;
+	//int* ptinfosRIUP;
+	//ptinfosRIUP = &infosRIUP;
 
 
 	//-- Variables pour partie D --//
-	struct str_trioTR infoCotes; 
-	int32_t* ptinfoCotes;
-	ptinfoCotes = &infoCotes;
+	//struct str_trioTR infoCotes; 
+	str_trioTR infoCotes;
+	//int32_t* ptinfoCotes;
+	//ptinfoCotes = &infoCotes;
 
 	//-- msg pour l'utilisateur --//
 	printf("%s %1.1f \n", MSG_BIENVENU, VERSION_CODE); 
@@ -112,14 +113,14 @@ void main()
 		else if (nbTb == 1)
 			printf("Tableau NRZ : ");
 		else 
-			printf("Tableau NRZi : ");
+			printf("Tableau NRZi : x");
 
 		//-- affichage --//
 		for (int i = 0; i < TAILLE_TB_BINAIRE; i++)
 		{
 			//-- affichage tb binaire --//
 			if (nbTb == 0)
-				printf("%d", tbBinaire[i]); 
+				printf("%d", tbBinaire[i]);
 
 			//-- affichage tb code NRZ --//
 			else if (nbTb == 1)
@@ -154,26 +155,43 @@ void main()
 	//-------------- PARTIE C - GROUPE 3 ---------------//
 	
 	//-- initialisation d'une partie de la structure --//  
-	infosRIUP.tbP[0] = 5.5;
-	infosRIUP.tbU[0] = -12;
 
-	infosRIUP.tbI[1] = 4.5 * pow(10, -3);
-	infosRIUP.tbR[1] = 4200;
+	infosRIUP.tbR[0] = 1;
+	infosRIUP.tbI[0] = 2;
+	infosRIUP.tbU[0] = 3;
+	infosRIUP.tbP[0] = 4;
 
-	infosRIUP.tbP[2] = 2.5; 
-	infosRIUP.tbR[2] = 72 * pow(10, 3);
+	infosRIUP.tbR[1] = 0;
+	infosRIUP.tbI[1] = 2;
+	infosRIUP.tbU[1] = 3;
+	infosRIUP.tbP[1] = 4;
 
-	infosRIUP.tbI[3] = .5;
-	infosRIUP.tbU[3] = 24;
+	infosRIUP.tbR[2] = 1;
+	infosRIUP.tbI[2] = 2;
+	infosRIUP.tbU[2] = 3;
+	infosRIUP.tbP[2] = 4;
 
-	infosRIUP.tbI[4] = 1; 
-	infosRIUP.tbP[4] = .1;
+	infosRIUP.tbR[3] = 1;
+	infosRIUP.tbI[3] = 2;
+	infosRIUP.tbU[3] = 3;
+	infosRIUP.tbP[3] = 4;
+
+	infosRIUP.tbR[4] = 1;
+	infosRIUP.tbI[4] = 2;
+	infosRIUP.tbU[4] = 3;
+	infosRIUP.tbP[4] = 4;
+
+	char indiceCalcul = 1;
 
 	//-- appel de la fonction pour calculer la loi ohm sur des tableaux de structure --// 
-
+	LoiOhm(indiceCalcul,&infosRIUP);
 
 	//-- afficher les information 4 éléments RIUP pour 5 données --// 
-	printf("R = ?? | I = ?? | U = ?? | P = ??"); 
+	printf("R1 = %.2f | I1 = %.2f | U1 = %.2f | P1 = %.2f\n", infosRIUP.tbR[indiceCalcul], infosRIUP.tbI[indiceCalcul], infosRIUP.tbU[indiceCalcul], infosRIUP.tbP[indiceCalcul]);
+	/*printf("R2 = %.2f | I2 = %.2f | U2 = %.2f | P2 = %.2f\n", infosRIUP.tbR[1], infosRIUP.tbI[1], infosRIUP.tbU[1], infosRIUP.tbP[1]);
+	printf("R3 = %.2f | I3 = %.2f | U3 = %.2f | P3 = %.2f\n", infosRIUP.tbR[2], infosRIUP.tbI[2], infosRIUP.tbU[2], infosRIUP.tbP[2]);
+	printf("R4 = %.2f | I4 = %.2f | U4 = %.2f | P4 = %.2f\n", infosRIUP.tbR[3], infosRIUP.tbI[3], infosRIUP.tbU[3], infosRIUP.tbP[3]);
+	printf("R5 = %.2f | I5 = %.2f | U5 = %.2f | P5 = %.2f\n", infosRIUP.tbR[4], infosRIUP.tbI[4], infosRIUP.tbU[4], infosRIUP.tbP[4]);*/
 
 	//-- retour à la ligne --// 
 	printf("\n\n");
@@ -183,17 +201,20 @@ void main()
 	
 	//-- initialisation d'une partie de la structure --// 
 	infoCotes.adj = 5; 
+	infoCotes.hyp = 12;
+	infoCotes.opp = 0;
 	infoCotes.aplha_degre = 45; 
+	infoCotes.alpha_radian = 0;
 
 	//-- appel de la fonction pour calculer la trigonométrie du triangle --// 
 	TrigoTR(&infoCotes);
 
 	//-- affichage des valeurs --//
-	printf("cote oppose vaut : "); 
-	printf("cote adjacent vaut : ");
-	printf("cote hypotenuse vaut : ");
-	printf("angle alpha radian : ");
-	printf("angle alpha degre : ");
+	printf("cote oppose vaut : %d\n", infoCotes.opp ); 
+	printf("cote adjacent vaut : %d \n", infoCotes.adj);
+	printf("cote hypotenuse vaut : %d\n", infoCotes.hyp);
+	printf("angle alpha radian : %.2f \n", infoCotes.alpha_radian);
+	printf("angle alpha degre : %d \n", infoCotes.aplha_degre);
 
 	system("pause");	// -> environnement windows 
 }

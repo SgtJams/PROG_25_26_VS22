@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo11\\Source\\Ex11_new\\EX11_new\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68861651-B0A8-4A8D-9FA8-C7600118D701}|EX11_new\\EX11_new.vcxproj|D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo11\\Source\\Ex11_new\\EX11_new\\EX11_new\\Ex11_new.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{68861651-B0A8-4A8D-9FA8-C7600118D701}|EX11_new\\EX11_new.vcxproj|solutionrelative:EX11_new\\Ex11_new.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68861651-B0A8-4A8D-9FA8-C7600118D701}|EX11_new\\EX11_new.vcxproj|D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo11\\Source\\Ex11_new\\EX11_new\\EX11_new\\Extract.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{68861651-B0A8-4A8D-9FA8-C7600118D701}|EX11_new\\EX11_new.vcxproj|solutionrelative:EX11_new\\Extract.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68861651-B0A8-4A8D-9FA8-C7600118D701}|EX11_new\\EX11_new.vcxproj|D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo11\\Source\\Ex11_new\\EX11_new\\EX11_new\\Extract.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{68861651-B0A8-4A8D-9FA8-C7600118D701}|EX11_new\\EX11_new.vcxproj|solutionrelative:EX11_new\\Extract.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68861651-B0A8-4A8D-9FA8-C7600118D701}|EX11_new\\EX11_new.vcxproj|D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo11\\Source\\Ex11_new\\EX11_new\\EX11_new\\fDivInt.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{68861651-B0A8-4A8D-9FA8-C7600118D701}|EX11_new\\EX11_new.vcxproj|solutionrelative:EX11_new\\fDivInt.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68861651-B0A8-4A8D-9FA8-C7600118D701}|EX11_new\\EX11_new.vcxproj|D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo11\\Source\\Ex11_new\\EX11_new\\EX11_new\\fDivInt.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{68861651-B0A8-4A8D-9FA8-C7600118D701}|EX11_new\\EX11_new.vcxproj|solutionrelative:EX11_new\\fDivInt.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "fDivInt.h",
+              "DocumentMoniker": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo11\\Source\\Ex11_new\\EX11_new\\EX11_new\\fDivInt.h",
+              "RelativeDocumentMoniker": "EX11_new\\fDivInt.h",
+              "ToolTip": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo11\\Source\\Ex11_new\\EX11_new\\EX11_new\\fDivInt.h",
+              "RelativeToolTip": "EX11_new\\fDivInt.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-01T16:21:58.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "fDivInt.c",
+              "DocumentMoniker": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo11\\Source\\Ex11_new\\EX11_new\\EX11_new\\fDivInt.c",
+              "RelativeDocumentMoniker": "EX11_new\\fDivInt.c",
+              "ToolTip": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo11\\Source\\Ex11_new\\EX11_new\\EX11_new\\fDivInt.c",
+              "RelativeToolTip": "EX11_new\\fDivInt.c",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-03-01T16:21:58.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Extract.h",
+              "DocumentMoniker": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo11\\Source\\Ex11_new\\EX11_new\\EX11_new\\Extract.h",
+              "RelativeDocumentMoniker": "EX11_new\\Extract.h",
+              "ToolTip": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo11\\Source\\Ex11_new\\EX11_new\\EX11_new\\Extract.h",
+              "RelativeToolTip": "EX11_new\\Extract.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-01T16:21:58.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Extract.c",
+              "DocumentMoniker": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo11\\Source\\Ex11_new\\EX11_new\\EX11_new\\Extract.c",
+              "RelativeDocumentMoniker": "EX11_new\\Extract.c",
+              "ToolTip": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo11\\Source\\Ex11_new\\EX11_new\\EX11_new\\Extract.c",
+              "RelativeToolTip": "EX11_new\\Extract.c",
+              "ViewState": "AgIAABsAAAAAAAAAAAAqwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-03-01T16:21:58.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ex11_new.c",
+              "DocumentMoniker": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo11\\Source\\Ex11_new\\EX11_new\\EX11_new\\Ex11_new.c",
+              "RelativeDocumentMoniker": "EX11_new\\Ex11_new.c",
+              "ToolTip": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo11\\Source\\Ex11_new\\EX11_new\\EX11_new\\Ex11_new.c",
+              "RelativeToolTip": "EX11_new\\Ex11_new.c",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-03-01T16:21:58.394Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

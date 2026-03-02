@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo14\\source\\Ex14\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF06A64-D3E1-4D2C-9790-7EF77F5D2F4F}|Ex14\\Ex14.vcxproj|D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo14\\source\\Ex14\\Ex14\\Ex14.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AFF06A64-D3E1-4D2C-9790-7EF77F5D2F4F}|Ex14\\Ex14.vcxproj|solutionrelative:Ex14\\Ex14.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF06A64-D3E1-4D2C-9790-7EF77F5D2F4F}|Ex14\\Ex14.vcxproj|D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo14\\source\\Ex14\\Ex14\\GetHMS_D.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AFF06A64-D3E1-4D2C-9790-7EF77F5D2F4F}|Ex14\\Ex14.vcxproj|solutionrelative:Ex14\\GetHMS_D.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF06A64-D3E1-4D2C-9790-7EF77F5D2F4F}|Ex14\\Ex14.vcxproj|D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo14\\source\\Ex14\\Ex14\\GetHMS_C.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AFF06A64-D3E1-4D2C-9790-7EF77F5D2F4F}|Ex14\\Ex14.vcxproj|solutionrelative:Ex14\\GetHMS_C.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF06A64-D3E1-4D2C-9790-7EF77F5D2F4F}|Ex14\\Ex14.vcxproj|D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo14\\source\\Ex14\\Ex14\\CalcSec.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AFF06A64-D3E1-4D2C-9790-7EF77F5D2F4F}|Ex14\\Ex14.vcxproj|solutionrelative:Ex14\\CalcSec.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF06A64-D3E1-4D2C-9790-7EF77F5D2F4F}|Ex14\\Ex14.vcxproj|D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo14\\source\\Ex14\\Ex14\\LibGestTime.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AFF06A64-D3E1-4D2C-9790-7EF77F5D2F4F}|Ex14\\Ex14.vcxproj|solutionrelative:Ex14\\LibGestTime.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF06A64-D3E1-4D2C-9790-7EF77F5D2F4F}|Ex14\\Ex14.vcxproj|D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo14\\source\\Ex14\\Ex14\\GetHMS_B.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AFF06A64-D3E1-4D2C-9790-7EF77F5D2F4F}|Ex14\\Ex14.vcxproj|solutionrelative:Ex14\\GetHMS_B.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ex14.c",
+              "DocumentMoniker": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo14\\source\\Ex14\\Ex14\\Ex14.c",
+              "RelativeDocumentMoniker": "Ex14\\Ex14.c",
+              "ToolTip": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo14\\source\\Ex14\\Ex14\\Ex14.c",
+              "RelativeToolTip": "Ex14\\Ex14.c",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAFAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-02-28T19:37:31.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetHMS_D.c",
+              "DocumentMoniker": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo14\\source\\Ex14\\Ex14\\GetHMS_D.c",
+              "RelativeDocumentMoniker": "Ex14\\GetHMS_D.c",
+              "ToolTip": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo14\\source\\Ex14\\Ex14\\GetHMS_D.c",
+              "RelativeToolTip": "Ex14\\GetHMS_D.c",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-02-28T19:37:31.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetHMS_C.c",
+              "DocumentMoniker": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo14\\source\\Ex14\\Ex14\\GetHMS_C.c",
+              "RelativeDocumentMoniker": "Ex14\\GetHMS_C.c",
+              "ToolTip": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo14\\source\\Ex14\\Ex14\\GetHMS_C.c",
+              "RelativeToolTip": "Ex14\\GetHMS_C.c",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-02-28T19:37:31.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetHMS_B.c",
+              "DocumentMoniker": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo14\\source\\Ex14\\Ex14\\GetHMS_B.c",
+              "RelativeDocumentMoniker": "Ex14\\GetHMS_B.c",
+              "ToolTip": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo14\\source\\Ex14\\Ex14\\GetHMS_B.c",
+              "RelativeToolTip": "Ex14\\GetHMS_B.c",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-02-28T19:37:31.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LibGestTime.h",
+              "DocumentMoniker": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo14\\source\\Ex14\\Ex14\\LibGestTime.h",
+              "RelativeDocumentMoniker": "Ex14\\LibGestTime.h",
+              "ToolTip": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo14\\source\\Ex14\\Ex14\\LibGestTime.h",
+              "RelativeToolTip": "Ex14\\LibGestTime.h",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAkAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-28T19:37:31.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CalcSec.c",
+              "DocumentMoniker": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo14\\source\\Ex14\\Ex14\\CalcSec.c",
+              "RelativeDocumentMoniker": "Ex14\\CalcSec.c",
+              "ToolTip": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\Exercice\\Exo14\\source\\Ex14\\Ex14\\CalcSec.c",
+              "RelativeToolTip": "Ex14\\CalcSec.c",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-02-28T19:37:31.381Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

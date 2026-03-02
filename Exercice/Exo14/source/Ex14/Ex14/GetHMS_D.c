@@ -1,3 +1,7 @@
+// ---------------------------------------------------------------------------------- -//
+// Nom du projet 		: Ex14
+// Nom du fichier 		: GetHMS_D.c
+// Date de création 	: 06.02.2026
 // Date de modification : 
 //
 // Auteur 				: Pouly (St. Pouly)
@@ -10,17 +14,14 @@
 // 						  -> http://www.asciitable.com/
 // 						  
 //----------------------------------------------------------------------------------//
-#define _USE_MATH_DEFINES		// pour utiliser des constantes liés à la librairie 
-								// math 
+#define _USE_MATH_DEFINES		// pour utiliser des constantes liés à la librairie math 
 
 //-- librairie standard --// 
 #include <math.h>
-//#include <corecrt_math_defines.h>		// autre possibilité pour utiliser les cst de
-										// de la librairie math
+//#include <corecrt_math_defines.h>		// autre possibilité pour utiliser les cst de la librairie math
 
 //-- librairie perso --//  
 #include "LibGestTime.h"
-
 
 //----------------------------------------------------------------------------------//
 //-- nom fct : GetHMS_D
@@ -31,10 +32,8 @@
 //----------------------------------------------------------------------------------//
 void GetHMS_D(S_Hms_D* ptS_Hms_D)
 {
-
 	//-- Calcul et transformation --//
-
 	ptS_Hms_D->TabHMS[2] = ptS_Hms_D->NbSec / 3600;				//-- val Heures --//
 	ptS_Hms_D->TabHMS[1] = (ptS_Hms_D->NbSec % 3600) / 60;		//-- val Minutes --//
 	ptS_Hms_D->TabHMS[0] = (ptS_Hms_D->NbSec % 3600) % 60;		//-- val Secondes --//
-}
+};

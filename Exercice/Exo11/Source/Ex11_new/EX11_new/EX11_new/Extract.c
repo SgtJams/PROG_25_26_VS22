@@ -14,13 +14,11 @@
 // 						  -> http://www.asciitable.com/
 // 						  
 //----------------------------------------------------------------------------------//
-#define _USE_MATH_DEFINES		// pour utiliser des constantes liés à la librairie 
-								// math 
+#define _USE_MATH_DEFINES		// pour utiliser des constantes liés à la librairie math 
 
 //-- librairie standard --// 
 #include <math.h>
-//#include <corecrt_math_defines.h>		// autre possibilité pour utiliser les cst de
-										// de la librairie math
+//#include <corecrt_math_defines.h>		// autre possibilité pour utiliser les cst de la librairie math
 
 //-- librairie perso --//  
 #include "Extract.h"
@@ -29,9 +27,9 @@
 //----------------------------------------------------------------------------------//
 //-- nom fct : EXTRACT
 //-- paramètre entrée : int(ValB)
-//-- paramètre sortie : short int
-//-- paramètre IN-OUT : - 
-//-- description	  : Retour valeu unité d'un nbr
+//-- paramètre sortie : int Valunite / variables retour des untité
+//-- paramètre IN-OUT : short int* ptCen, short int* ptDiz / pointeurs sur variable des centaines et des dizaines
+//-- description	  : Retour valeurs unité d'un nbr
 //----------------------------------------------------------------------------------//
 short int Extract(int valIn, short int* ptCen, short int* ptDiz)
 {
@@ -39,9 +37,9 @@ short int Extract(int valIn, short int* ptCen, short int* ptDiz)
 	int Valunite;
 
 	//-- calcul de valIn --//
-	*ptCen = valIn / 100;
-	*ptDiz = (valIn % 100) / 10;
-	Valunite = valIn % 10;
+	*ptCen = valIn / 100;			//Calcul des centaines//
+	*ptDiz = (valIn % 100) / 10;	//Calcul des dizaines//
+	Valunite = valIn % 10;			//Calcul des unités//
 
 	//-- retour valIn --// 
 	return (Valunite);

@@ -20,32 +20,33 @@
 #include <stdint.h> // uniformation du type entier 
 
 
-// Fonction fDivInt
+//-- Fonction fDivInt --//
 #include "fDivInt.h"
 
-// Fonction Extract
+//-- Fonction Extract --//
 #include "Extract.h"
 
 int main(void)
 {
 	char UserAnswer;
-	// Variables pour test A
+	//-- Variables pour test A --//
 	int ValA_dividende, ValA_diviseur;
 	int Resultat;
 	int Reste;
 
-	// Variables pour test B
+	//-- Variables pour test B --//
 	int ValB;
 	short int Valcent;
 	short int Valdiz;
 	short int Valuni;
 
-	// Invite exercice 11
+	//-- Invite exercice 11 --//
 	printf("EX11 Steeve Pouly  \n");
 	do {
 		printf("Test A ou B, Q pour Quitter \n");
 		scanf_s("%c%*c", &UserAnswer, 2);
 
+		//---- Partie A ----//
 		switch (UserAnswer) {
 		case 'A':
 		case 'a':
@@ -53,42 +54,45 @@ int main(void)
 			scanf_s("%d%*c", &ValA_dividende);
 			printf("TestA: entrez le diviseur  \n");
 			scanf_s("%d%*c", &ValA_diviseur);
+
+			//-- Affichage des valeurs --//
 			if (ValA_diviseur == 0)
 			{
+				//-- Affichage si diviseur = 0 --//
 				printf("TestA : erreur division par 0 ! \n");
 			}
 			else
 			{
 				Resultat = fDivInt(ValA_dividende, ValA_diviseur, &Reste);
+				//-- Affichage valeurs divisées --//
 				printf("Resultat de %d / %d = %d, reste = %d \n", ValA_dividende, ValA_diviseur, Resultat, Reste);
 			}
+		break;
 
-
-			break;
-
+		//---- Partie B ----//
 		case 'B':
 		case 'b':
 			printf("TestB: entrez un nombre de 0  a 999 \n");
 			scanf_s("%d%*c", &ValB);
+
+			//-- Affichage des valeurs --//
+			//-- Affichage valeur limitée --//
 			if (ValB > 999)
 			{
 				printf("ValB limitee a 999 !  \n");
 				ValB = 999;
-				
-
 				Valuni = Extract(ValB, &Valcent, &Valdiz);
 				printf("ValB = %d centaines = %d dizaines = %d unites = %d \n", ValB, Valcent, Valdiz, Valuni);
-
 			}
 			else
 			{
+				//-- Affichage valeur calculé --//
 				Valuni = Extract(ValB, &Valcent, &Valdiz);
 				printf("ValB = %d centaines = %d dizaines = %d unites = %d \n", ValB, Valcent, Valdiz, Valuni);
 			}
+		break;
 
-			break;
-
-		} // end switch
+		} //end switch//
 
 	} while (!(UserAnswer == 'Q' || UserAnswer == 'q'));
 

@@ -37,15 +37,15 @@ unsigned short int Extract(unsigned long valIn, unsigned short *ptH, unsigned sh
 {
 	//-- déclaration variable --// 
 	unsigned short int NbSecondes;
-	double NbHeures;
-	double NbMinutes;
-	double ValIn = valIn;
+	//double NbHeures;
+	//double NbMinutes;
+	//double ValIn = valIn;
 
 	//-- calcul de valIn --//
 	
-	*ptH = valIn / 3600;
-	*ptM = (valIn % 3600) / 60;
-	NbSecondes = valIn % 60;
+	*ptH = valIn / 3600;			//Calcul nbr heure//
+	*ptM = (valIn % 3600) / 60;		//Calcul nbr minute//
+	NbSecondes = valIn % 60;		//Calcul nbr seconde//
 
 	//NbHeures  = (ValIn / 3600.0);
 	//*ptH = floor(NbHeures);

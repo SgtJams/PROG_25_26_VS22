@@ -7,27 +7,25 @@
 // Auteur 				: Pouly (St. Pouly)
 //                       
 //
-// Description          : Affiche les seconde avec des heure et des minutes données
+// Description          : Affiche les seconde avec des heure et des minutes données partie A
 //
 //
 // Remarques :            lien pour la table ASCII :
 // 						  -> http://www.asciitable.com/
 // 						  
 //----------------------------------------------------------------------------------//
-#define _USE_MATH_DEFINES		// pour utiliser des constantes liés à la librairie 
-								// math 
+#define _USE_MATH_DEFINES		// pour utiliser des constantes liés à la librairie math 
 
 //-- librairie standard --// 
 #include <math.h>
-//#include <corecrt_math_defines.h>		// autre possibilité pour utiliser les cst de
-										// de la librairie math
+//#include <corecrt_math_defines.h>		// autre possibilité pour utiliser les cst de la librairie math
 
 //-- librairie perso --//  
 #include "LibGestTime.h"
 
 //----------------------------------------------------------------------------------//
 //-- nom fct : CalcSec
-//-- paramètre entrée : int nbrH = Nombre d'heures
+//-- paramètre entrée : int nbrH = Nombre d'heures /int nbrM = Nombre de minutes
 //-- paramètre sortie : int NbrSec = retour calcul nmbr de seconde
 //-- paramètre IN-OUT : - 
 //-- description	  : Transformation en seconde de valeur de minute et d'heures données.
@@ -40,7 +38,6 @@ int CalcSec(int nbrH, int nbrM)
 	int NbrM;
 
 	//-- Transformation en seconde --//
-
 	NbrH = nbrH * 3600;
 	NbrM = nbrM * 60;
 	NbrSec = NbrH + NbrM;

@@ -1,5 +1,6 @@
 #include <stdio.h>
-struct str_demo {
+struct str_demo
+{
 	char character;
 	short *pt_demo;
 	int tb_entier[5];

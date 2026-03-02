@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\CodeDemo\\CodeDemoEtudiants\\DemoPointeur_BZI\\NEW resumer et execice sur les pointeur\\resumer et execice sur les pointeur\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E97AD441-4EEA-45BD-B842-7BE92C6BA33D}|teste pointeur et structure\\teste pointeur et structure.vcxproj|D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\CodeDemo\\CodeDemoEtudiants\\DemoPointeur_BZI\\NEW resumer et execice sur les pointeur\\resumer et execice sur les pointeur\\teste pointeur et structure\\switch.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E97AD441-4EEA-45BD-B842-7BE92C6BA33D}|teste pointeur et structure\\teste pointeur et structure.vcxproj|solutionrelative:teste pointeur et structure\\switch.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E97AD441-4EEA-45BD-B842-7BE92C6BA33D}|teste pointeur et structure\\teste pointeur et structure.vcxproj|D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\CodeDemo\\CodeDemoEtudiants\\DemoPointeur_BZI\\NEW resumer et execice sur les pointeur\\resumer et execice sur les pointeur\\teste pointeur et structure\\ExmpSimple.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E97AD441-4EEA-45BD-B842-7BE92C6BA33D}|teste pointeur et structure\\teste pointeur et structure.vcxproj|solutionrelative:teste pointeur et structure\\ExmpSimple.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExmpSimple.c",
+              "DocumentMoniker": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\CodeDemo\\CodeDemoEtudiants\\DemoPointeur_BZI\\NEW resumer et execice sur les pointeur\\resumer et execice sur les pointeur\\teste pointeur et structure\\ExmpSimple.c",
+              "RelativeDocumentMoniker": "teste pointeur et structure\\ExmpSimple.c",
+              "ToolTip": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\CodeDemo\\CodeDemoEtudiants\\DemoPointeur_BZI\\NEW resumer et execice sur les pointeur\\resumer et execice sur les pointeur\\teste pointeur et structure\\ExmpSimple.c",
+              "RelativeToolTip": "teste pointeur et structure\\ExmpSimple.c",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAADcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-03-01T16:03:45.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "switch.c",
+              "DocumentMoniker": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\CodeDemo\\CodeDemoEtudiants\\DemoPointeur_BZI\\NEW resumer et execice sur les pointeur\\resumer et execice sur les pointeur\\teste pointeur et structure\\switch.c",
+              "RelativeDocumentMoniker": "teste pointeur et structure\\switch.c",
+              "ToolTip": "D:\\ES\\EMSY\\Github\\PROG_25_26_VS22\\CodeDemo\\CodeDemoEtudiants\\DemoPointeur_BZI\\NEW resumer et execice sur les pointeur\\resumer et execice sur les pointeur\\teste pointeur et structure\\switch.c",
+              "RelativeToolTip": "teste pointeur et structure\\switch.c",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-03-01T16:03:45.432Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

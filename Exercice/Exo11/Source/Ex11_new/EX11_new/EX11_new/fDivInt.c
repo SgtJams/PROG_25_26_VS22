@@ -28,10 +28,10 @@
 
 //----------------------------------------------------------------------------------//
 //-- nom fct : fDivInt
-//-- paramètre entrée : int,int
-//-- paramètre sortie : int
-//-- paramètre IN-OUT : - 
-//-- description	  : donner l'heure,minute,seconde
+//-- paramètre entrée : int valnum, int valdiv/ variables entré du dividente et du diviseur
+//-- paramètre sortie : int Resultat / variable de retour de la fonction pour le résultat du calcul
+//-- paramètre IN-OUT : int* ptR / pointeur sur le reste de la division
+//-- description	  : donner valeur d'un calcul de division
 //----------------------------------------------------------------------------------//
 int fDivInt(int valnum, int valdiv, int* ptR)
 {
@@ -39,8 +39,8 @@ int fDivInt(int valnum, int valdiv, int* ptR)
 	int Resultat;
 
 	//-- calcul de Resultat --//
-	Resultat = valnum / valdiv;
-	*ptR = valnum % valdiv;
+	Resultat = valnum / valdiv;		//Calcul du resultat de la division//
+	*ptR = valnum % valdiv;			//calcul du reste de la division//
 
 	//-- retour Resultat --// 
 	return (Resultat);

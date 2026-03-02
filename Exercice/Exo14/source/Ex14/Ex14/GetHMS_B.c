@@ -14,13 +14,11 @@
 // 						  -> http://www.asciitable.com/
 // 						  
 //----------------------------------------------------------------------------------//
-#define _USE_MATH_DEFINES		// pour utiliser des constantes liés à la librairie 
-								// math 
+#define _USE_MATH_DEFINES		// pour utiliser des constantes liés à la librairie math 
 
 //-- librairie standard --// 
 #include <math.h>
-//#include <corecrt_math_defines.h>		// autre possibilité pour utiliser les cst de
-										// de la librairie math
+//#include <corecrt_math_defines.h>		// autre possibilité pour utiliser les cst de la librairie math
 
 //-- librairie perso --//  
 #include "LibGestTime.h"
@@ -38,7 +36,6 @@ short int GetHMS_B(int nbrSec, short int* ptnbrH, short int* ptnbrM)
 	short int ReturnSec;
 
 	//-- Calcul et transformation --//
-
 	*ptnbrH = nbrSec / 3600;			//-- val Heures --//
 	*ptnbrM = (nbrSec % 3600)/60;		//-- val Minutes --//
 	ReturnSec = (nbrSec % 3600)%60;		//-- val Secondes --//

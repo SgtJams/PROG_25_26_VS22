@@ -14,22 +14,20 @@
 // 						  -> http://www.asciitable.com/
 // 						  
 //----------------------------------------------------------------------------------//
-
 #include <stdio.h>	// pour usage printf
 #include <stdint.h> // uniformation du type entier 
 
-// lib perso //
+//-- lib perso --//
 #include "LibGestTime.h"
-
-
 
 int main (void)
 {
 	char UserAnswer;
-	// Variables pour test A
+
+	//-- Variables pour test A --//
 	int HeuresA, MinutesA, SecondesA;
 
-	// Variables pour test B
+	//-- Variables pour test B --//
 	int ValB;
 	short int SoldeSec;
 	short int NmbrH;
@@ -39,20 +37,23 @@ int main (void)
 	//ptNmbrH = &NmbrH;
 	//ptNmbrM = &NmbrM;
 
-	// Variables pour test C
+	//-- Variables pour test C --//
 	int ValC;
 	S_hms Valheur;
+
 	short int *ptNmbrHC;
 	short int *ptNmbrMC;
 	short int *ptNmbrSC;
+
 	ptNmbrHC = &Valheur.NmbrH;
 	ptNmbrMC = &Valheur.NmbrM;
 	ptNmbrSC = &Valheur.NmbrS;
 	
 
-	// Variables pour test D
+	//-- Variables pour test D --//
 	int ValD;
 	S_Hms_D ResD;
+
 	short *ptResD;
 	short *ptResDH;
 	short *ptResDM;
@@ -66,16 +67,17 @@ int main (void)
 
 	S_Hms_D* pt_str; //-- version pro --//
 	pt_str = &ResD; //-- version pro --//
-	
 
-
-	printf("Ex14  Steeve Pouly \n");	// à MAJ
+	//-- Affichage debut texte console --//
+	printf("Ex14  Steeve Pouly \n");
 
 	do {
 		printf("Test A, B, C ou D, Q pour Quitter \n");
 		scanf_s("%c%*c", &UserAnswer, 2);
 		
-		switch (UserAnswer) {
+		switch (UserAnswer) 
+		{
+			//---- Partie A ----//
 			case 'A':
 			case 'a':
 				printf("TestA: entrez le nb d'heures  \n");
@@ -83,15 +85,15 @@ int main (void)
 				printf("TestA: entrez le nb de minutes  \n");
 				scanf_s("%d%*c", &MinutesA);
 
-				//-- appel de la fonction --//
+				//-- Appel de la fonction --//
 				SecondesA = CalcSec(HeuresA, MinutesA);
 
 				//-- Afichage Valeurs --//
 				printf("TestA : Heures = %d Minutes = %d Nb secondes = %d\n", HeuresA, MinutesA, SecondesA);
 
-
 			break;
 
+			//---- Partie B ----//
 			case 'B':
 			case 'b':
 				printf("TestB: entrez un nombre de secondes \n");
@@ -105,6 +107,7 @@ int main (void)
 
 			break;
 
+			//---- Partie C ----//
 			case 'C':
 			case 'c':
 				printf("TestC: entrez un nombre de secondes \n");
@@ -113,18 +116,18 @@ int main (void)
 				//-- appel de la fonction --//
 				GetHMS_C(ValC, &Valheur);
 
-				//-- Afichage Valeurs --//
+				//-- Afichage Valeurs avec utilisation moin pratique des pointeurs--//
 				printf("TestB : %d sec represente %d[h] %d[m] %d[s]\n", ValC, *ptNmbrHC, *ptNmbrMC, *ptNmbrSC);
-
 
 			break;
 
+			//---- Partie D ----//
 			case 'D':
 			case 'd':
 				printf("TestD: entrez un nombre de secondes \n");
 				scanf_s("%d%*c", &ValD);
 
-				//--pointeur sur pour récup de la valeur ValD --//
+				//--pointeur pour récup de la valeur ValD --//
 				*ptResD = ValD;
 
 				//-- appel de la fonction --//

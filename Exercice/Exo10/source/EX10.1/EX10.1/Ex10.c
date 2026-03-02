@@ -29,13 +29,14 @@
 
 int main (void)
 {
+	//-- Variable pour code général --//
 	char UserAnswer;
 	// Variables pour test A
 	double valA;
 	int PartInt;
 	double PartFract;
 	
-	// Variables pour test B
+	//-- Variables pour test B --//
 	unsigned long ValB;
 	unsigned short NbHeures;
 	unsigned short NbMinutes;
@@ -51,9 +52,10 @@ int main (void)
 			case 'A':
 			case 'a':
 				printf("TestA: entrez un nombre fractionnaire  \n");
-				scanf_s("%lf%*c", &valA);
-				PartFract = valA;
+				scanf_s("%lf%*c", &valA); //enregistrement des valeur donné sur la console dans la variable valA//
+				//PartFract = valA;
 				PartInt = FtestA(valA, &PartFract);
+				//-- Affichage des valeurs demandées --//
 				printf("ValA = %.2Lf PartInt = %d PartFract = %.2Lf \n", valA, PartInt, PartFract);
 				
 			break;
@@ -61,10 +63,11 @@ int main (void)
 			case 'B':
 			case 'b':
 				printf("TestB: entrez un nombre de secondes \n");
-				scanf_s("%d%*c", &ValB);
-				NbHeures = ValB;
-				NbMinutes = ValB;
+				scanf_s("%d%*c", &ValB); //enregistrement des valeur donné sur la console dans la variable valB//
+				//NbHeures = ValB;
+				//NbMinutes = ValB;
 				NbSecondes = Extract(ValB, &NbHeures, &NbMinutes);
+				//-- Affichage des valeurs demandées --//
 				printf("ValB = %lu NbHeures = %hu NbMinutes = %hu NbSecondes = %hu \n", ValB, NbHeures, NbMinutes, NbSecondes);
 
 				break;

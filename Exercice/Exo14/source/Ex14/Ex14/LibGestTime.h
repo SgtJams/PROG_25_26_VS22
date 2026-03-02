@@ -7,7 +7,7 @@
 // Auteur 				: Pouly (St. Pouly)
 //                       
 //
-// Description          : Affiche les seconde avec des heure et des minutes données
+// Description          : fonction des 4 parties fournie dans l'énonvé de l'exercice
 //
 //
 // Remarques :            lien pour la table ASCII :
@@ -18,22 +18,18 @@
 #define LIBEGESTTIME_H
 
 //-- Déclaration Structure global S_hms --//
-
 typedef struct
 {
 	short  NmbrH;
 	short  NmbrM;
 	short  NmbrS;
-
 } S_hms;
 
 //-- Déclaration Structure global S_Hms_D ResD --//
-
 typedef struct
 {
 	short NbSec;
 	short TabHMS[3];
-
 } S_Hms_D;
 
 //--------------------Prototype----------------------------//
@@ -41,10 +37,8 @@ typedef struct
 //-- Prototype CalcSec --//
 int CalcSec(int nbrH, int nbrM);
 
-
 //-- Prototype GetHMS_B --//
 short int GetHMS_B(int nbrSec, short int* nbrH, short int* nbrM);
-
 
 //-- Prototype GetHMS_C --//
 void GetHMS_C(int nbrSec, S_hms* ptS_hms);

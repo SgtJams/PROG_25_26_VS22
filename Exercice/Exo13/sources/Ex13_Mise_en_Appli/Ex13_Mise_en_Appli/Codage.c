@@ -14,8 +14,7 @@
 //						-> 
 //
 //----------------------------------------------------------------------------------//
-#define _USE_MATH_DEFINES		// pour utiliser des constantes liés à la librairie 
-								// math 
+#define _USE_MATH_DEFINES		// pour utiliser des constantes liés à la librairie math 
 
 //-- librairie standard --// 
 #include <math.h>
@@ -26,7 +25,7 @@
 
 //----------------------------------------------------------------------------------//
 //-- nom fct : Codage
-//-- paramètre entrée : int8_t tbbin / tableau binaire
+//-- paramètre entrée : int8_t tbbin[] / tableau binaire
 //-- paramètre sortie : -
 //-- paramètre IN-OUT : S_tbnzr* ptS_tbnzr = pointage sur tableau NRZI et NRZ
 //-- description	  : Transformation d'un code binaire en format NRZI et NRZ
@@ -42,15 +41,13 @@ void Codage(int8_t tbbin[], S_tbnzr* ptS_tbnzr)
 	{
 		if (tbbin[i] == 0)
 		{
-
 			ptS_tbnzr->tbNRZ[i] = ValPos;
-			ptS_tbnzr->tnNRZi[i+1] = ValPos;
-			
+			ptS_tbnzr->tnNRZi[i] = ValPos;
 		}
 		else
 		{
 			ptS_tbnzr->tbNRZ[i] = ValNeg;
-			ptS_tbnzr->tnNRZi[i+1] = ValNeg;
-		}
-	}
-}
+			ptS_tbnzr->tnNRZi[i] = ValNeg;
+		};
+	};
+};
