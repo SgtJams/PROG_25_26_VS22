@@ -26,34 +26,40 @@
 
 //----------------------------------------------------------------------------------//
 //-- nom fct : ZipDate
-//-- paramètre entrée :
-//-- paramètre sortie : 
-//-- paramètre IN-OUT : 
-//-- description	  : Transformation de paramètre d'entrée a une date sous forme codée de manière compressée
+//-- paramètre entrée : unsigned char day, unsigned char month, unsigned short year
+//-- paramètre sortie : unsigned short ZipDate
+//-- paramètre IN-OUT : -
+//-- description	  : Transformation de paramètres d'entrée à une date sous forme codée de manière compressée
 //----------------------------------------------------------------------------------//
 
-//-- Declaration Union --//
+//-- Définition local de l'Union --//
 
 union u_DecodeDate
 {
-	struct						//pas obliger de la déclarer car pas utilisé dans un autre fichier//
+	unsigned short DateCodee;			//Variable pour récupérer la date codée//
+
+	struct								//pas obliger de la déclarer car pas utilisé dans un autre fichier (pas de typdef)//
 	{
-		unsigned short day;
-		unsigned short month;
-		unsigned short year;
+		unsigned short day : 5;			//création d'une structure mais avec des valeurs précises du nombre de bit par champ//
+		unsigned short month : 4;
+		unsigned short year : 7;		//on aura une constante qui commence a 1950//
 
 	};
 };
 
-
+//-- Déclaration fonction --//
 
 unsigned short ZipDate(unsigned char day, unsigned char month, unsigned short year)
 {
-	unsigned short ZipDate;
+	//-- Déclaration de l'union --//
+	union u_DecodeDate Val_DecodeDate;			
 
-	union u_DecodeDate Varu_DecodeDate;
+	//-- Mise a jours des valleur qui devront etre codée --//
+	Val_DecodeDate.day = day;
+	Val_DecodeDate.month = month;
+	Val_DecodeDate.year = 1950 + year;			//1950 plus valeur de 0à128//
 
-	ZipDate =.......
+	Val_DecodeDate.DateCodee = {Val_DecodeDate.day, };
 
 	return(ZipDate);
 } 

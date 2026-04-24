@@ -19,7 +19,7 @@
 
 //-- lib perso --//
 
-//-- Declaration Union --//
+//-- Declaration local Union --//
 union U_tempUnion
 {
 	unsigned char TabBin[8];  // on met la variable en unsigned car le compilateur ne vas pas interpréter la même valeur du char et du double ATTENTION!!!!! il faut qu'il puisse voir depuis 0-255//
