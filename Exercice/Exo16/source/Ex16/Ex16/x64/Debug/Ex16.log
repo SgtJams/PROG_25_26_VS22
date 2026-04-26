@@ -1,0 +1,4 @@
+﻿  Ex16.c
+D:\ES\Github\PROG_25_26_VS22\Exercice\Exo16\source\Ex16\Ex16\Ex16.c(83,36): warning C4244: 'fonction' : conversion de 'unsigned short' en 'unsigned char', perte possible de données
+D:\ES\Github\PROG_25_26_VS22\Exercice\Exo16\source\Ex16\Ex16\Ex16.c(83,41): warning C4244: 'fonction' : conversion de 'unsigned short' en 'unsigned char', perte possible de données
+  Ex16.vcxproj -> D:\ES\Github\PROG_25_26_VS22\Exercice\Exo16\source\Ex16\x64\Debug\Ex16.exe

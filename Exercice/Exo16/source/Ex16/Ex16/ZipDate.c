@@ -33,33 +33,34 @@
 //----------------------------------------------------------------------------------//
 
 //-- Définition local de l'Union --//
-
 union u_DecodeDate
 {
 	unsigned short DateCodee;			//Variable pour récupérer la date codée//
 
 	struct								//pas obliger de la déclarer car pas utilisé dans un autre fichier (pas de typdef)//
 	{
-		unsigned short day : 5;			//création d'une structure mais avec des valeurs précises du nombre de bit par champ//
+		unsigned short year : 7;	//LSB//	//création d'une structure mais avec des valeurs précises du nombre de bit par champ//
 		unsigned short month : 4;
-		unsigned short year : 7;		//on aura une constante qui commence a 1950//
+		unsigned short day : 5;		//MSB// //on aura une constante de 1950 qui fera la diference avec la valeur rentrée//
 
 	};
 };
 
 //-- Déclaration fonction --//
-
 unsigned short ZipDate(unsigned char day, unsigned char month, unsigned short year)
 {
 	//-- Déclaration de l'union --//
-	union u_DecodeDate Val_DecodeDate;			
+	union u_DecodeDate Val_DecodeDate;	
 
-	//-- Mise a jours des valleur qui devront etre codée --//
+	//-- Déclaration Variable --//
+	unsigned short ZipDate;
+
+	//-- Mise a jours des valleurs qui devront être codée --//
 	Val_DecodeDate.day = day;
 	Val_DecodeDate.month = month;
-	Val_DecodeDate.year = 1950 + year;			//1950 plus valeur de 0à128//
+	Val_DecodeDate.year = year - 1950 ;			//valeur année - cst 1950//
 
-	Val_DecodeDate.DateCodee = {Val_DecodeDate.day, };
+	ZipDate = Val_DecodeDate.DateCodee;			//Dans la variable dateCodee on va retrouver la structure car on est dans une union//
 
 	return(ZipDate);
 } 

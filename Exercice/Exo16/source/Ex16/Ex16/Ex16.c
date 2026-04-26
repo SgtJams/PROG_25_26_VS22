@@ -31,15 +31,35 @@
 // résultat unsigned short
 
 
+
+
 int main (void)
 {
+	//-- Declaration Variable --//
 	char  UserAnswer;
 	short sortie;
+
+	//-- Définition local de l'Union --//
+	union u_Decompressage
+	{
+		unsigned short Dateback;			//Variable pour récupérer la date codée//
+
+		struct								//pas obliger de la déclarer car pas utilisé dans un autre fichier (pas de typdef)//
+		{
+			unsigned short yearLSB : 4;		//LSB// //création d'une structure mais avec des valeurs précises du nombre de bit par champ//
+			unsigned short yearMSB : 4; 
+			unsigned short month : 4;
+			unsigned short day : 4;			//MSB//
+
+		};
+	};
+
+	//-- Déclaration de l'union --//
+	union u_Decompressage Val_Decodee;
 
 	//-- Taille minimum = short, même avec préfixe h dans scanf --//
 	unsigned short day, month;
 	unsigned short year;
-	unsigned short Dateback;
 	
 	//-- début Affichage --//
 	printf ("Ex16 Pouly Steeve \n");
@@ -63,10 +83,13 @@ int main (void)
 				scanf_s("%hd%hd%hd%*c", &day, &month, &year);
 				
 				//-- Introduisez l'appel de ZipDate ICI --//
-				Dateback = ZipDate(day, month, year);
+				Val_Decodee.Dateback = ZipDate(day, month, year);
 
 				//-- Affichage du résultat --//
-				printf("Date compressee en hexa %d \n", Dateback);
+				//-- 1er facon en réferencant les champs de bit de la structure --//
+				//printf("Date compressee en hexa %X%X%X%X \n", Val_Decodee.day, Val_Decodee.month, Val_Decodee.yearMSB, Val_Decodee.yearLSB);
+				//-- 2ème facon en réferencant la variable de l'union qui comprend ducoup la structure --//
+				printf("Date compressee en hexa %X \n", Val_Decodee.Dateback);
 
 			break;
 

@@ -1,0 +1,3 @@
+﻿  Ex17.c
+D:\ES\Github\PROG_25_26_VS22\Exercice\Exo17\source\Ex17\Ex17\Ex17.c(43,2): warning C4091: 'typedef ' : ignoré à gauche de 'S_DefSegment' quand aucune variable n'est déclarée
+  Ex17.vcxproj -> D:\ES\Github\PROG_25_26_VS22\Exercice\Exo17\source\Ex17\x64\Debug\Ex17.exe
