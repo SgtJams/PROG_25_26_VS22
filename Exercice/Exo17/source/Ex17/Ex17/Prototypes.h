@@ -12,7 +12,37 @@
 #ifndef PROTOTYPES_H
 #define PROTOTYPES_H
 
+//-- déclaration structure Global --// 
+typedef struct
+{
+	char TypeInfo;
+
+	union
+	{
+		struct
+		{
+			int P1X;
+			int P1Y;
+			int P2X;
+			int P2Y;
+		};
+
+		struct
+		{
+			int CentreX;
+			int CentreY;
+			int longeur;
+			double angle;
+		};
+
+	};
+
+}S_DefSegment;
+
 //-- Prototypes --//
-void ShowSeg(struct S_DefSegment*ptS_DefSegment);
+
+void ShowSeg(S_DefSegment*ptS_DefSegment);
+
+void ShowFrame(union U_Frame*ptS_Frame);
 
 #endif // !PROTOTYPES //
